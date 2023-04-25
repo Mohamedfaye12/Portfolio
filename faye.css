@@ -1,0 +1,55 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+
+}
+.ecran {
+    height: 100vh;
+    background-image: url(medias/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carte{
+    width: 150px;
+    max-width: 440px;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+
+
+}
+.carte img{
+    width: 150px;
+    border-radius: 150%;
+}
+.carte .reseau img{
+    width: 24px;
+    border-radius: 40px;
+    margin: 10px 5px;
+    transition: 0.5s;
+
+}
+.carte .reseau img:hover{
+    background: #fff;
+}
+.bouton{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 100px;
+    background: #fff;
+    color: blueviolet;
+    padding: 5px 5px;
+    border-radius: 30px;
+    margin: 5px 5px;
+}
