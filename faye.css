@@ -101,12 +101,12 @@ header {
     color: black;
     position: relative;
 }
-content .par{
-    padding-left: 10px;
-    padding-bottom: 10px;
+.par{
+    padding-left: 10%;
+    /* padding-bottom: 10px; */
     font-family: arial;
     letter-spacing: 1.2px;
-    line-height: 80Px;
+    text-align: justify;
 }
 .projets {
     margin: 50px 0;
