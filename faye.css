@@ -124,6 +124,11 @@ h1 {
     margin-bottom: 25px;
     font-size: 25px;
 }
+.projets a{
+    font-size: 20px;
+    text-decoration: solid;
+    color: #000;
+}
 .projets-list {
     display: flex;
     justify-content: space-between;
@@ -153,4 +158,11 @@ h3 {
   @keyframes colorChange {
     50% { color: blue; }
     100% { color: black; }
-  }  
+}  
+
+.mes_cours img {
+    width: 70px;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px 5px;
+}
