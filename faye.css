@@ -3,11 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-image: url(medias/bkk\ 2.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-}
+
 header {
     position: fixed;
     top: 0%;
@@ -121,8 +117,11 @@ header {
     text-align: justify;
 }
 .projets {
-    margin: 50px 0;
-    padding: 0 10px;
+    
+        background-image: url(medias/background\ 5.jpg);
+        background-size: cover;
+        padding: 200px ;
+        
 }
 h1 {
     font-size: 40px;
