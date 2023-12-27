@@ -180,8 +180,8 @@ h3 {
 }
 .footer {
     margin-top: 10%;
-    background-color: #fff;
-    color: black;
+    background-color: black;
+    color: aliceblue;
     padding: 50px 0; /* Supprimer le padding horizontal */
     text-align: center;
     width: 100%;
@@ -190,7 +190,7 @@ h3 {
 }
 .footer a {
     
-    color: black;
+    color: aliceblue;
 }
 .footer h3 {
     text-align: center;
